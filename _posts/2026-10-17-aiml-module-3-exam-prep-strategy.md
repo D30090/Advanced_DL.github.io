@@ -37,6 +37,30 @@ As part of my ongoing executive certification in Artificial Intelligence and Mac
 With two attempts scheduled (**Attempt 1 on October 25, 2026**, and **Attempt 2 on November 14, 2026**) and a clear target to achieve an **8.5+ CGPA distinction**, preparation requires more than passive studying. It demands a rigorous tactical approach focused on exam rubrics, Higher-Order Thinking Skills (HOTS), and subjective case study execution.
 
 ---
+##**📌 Syllabus Overview**
+# Mid Module 3 Evaluation Syllabus (IITP-AIML-2604)
+
+> **Certification in Artificial Intelligence and Machine Learning**
+
+Below is the comprehensive session-by-session syllabus covering computer vision, natural language processing, and modern transformer architectures.
+
+| Academic Session & Title | Core Topics |
+| :--- | :--- |
+| **Academic Session 39**<br>Convolutional Neural Networks | * Convolution operation: kernel, feature map, padding, stride<br>* Pooling layers: max pooling and average pooling<br>* CNN architecture: conv $\rightarrow$ relu $\rightarrow$ pool $\rightarrow$ flatten $\rightarrow$ fc<br>* Visualising filters and feature maps<br>* Overfitting in CNNs: dropout and data augmentation |
+| **Academic Session 40**<br>CNN Architectures: LeNet to ResNet | * LeNet-5: the original CNN architecture<br>* VGGNet: depth with small 3x3 kernels<br>* ResNet: residual connections and why they solve vanishing gradients<br>* Inception: parallel convolutions at different scales<br>* EfficientNet: compound scaling — depth, width, resolution |
+| **Academic Session 41**<br>Transfer Learning | * Transfer learning: reusing features learned on large datasets<br>* Feature extraction: freeze backbone, train new classifier head<br>* Fine-tuning: unfreeze layers and retrain with a low learning rate<br>* Data augmentation: random flip, crop, colour jitter<br>* Choosing the right pre-trained model for your task |
+| **Academic Session 42**<br>Object Detection with YOLO | * Detection vs classification: bounding boxes and class labels<br>* YOLO architecture: grid cells, anchor boxes, confidence scores<br>* IoU metric and Non-Maximum Suppression (NMS)<br>* YOLOv8 with Ultralytics: train, validate, predict<br>* Custom dataset annotation and training workflow |
+| **Academic Session 43**<br>Image Segmentation | * Semantic vs instance segmentation<br>* U-Net architecture: encoder-decoder with skip connections<br>* Pixel-wise loss functions: binary cross-entropy, Dice loss<br>* Using pre-trained segmentation models<br>* Applications: medical imaging, satellite imagery, autonomous vehicles |
+| **Academic Session 44 & 46**<br>Model Interpretability in Computer Vision | * Why interpretability matters in vision models<br>* Grad-CAM: using gradients to visualise where a CNN is looking<br>* Occlusion sensitivity maps<br>* Failure analysis: inspecting misclassified images<br>* Responsible deployment considerations for CV models |
+| **Academic Session 45**<br>Recurrent Neural Networks (RNNs) | * Why CNNs fail on sequential data<br>* RNN: unrolled computation, hidden state, forward pass<br>* Vanishing gradient problem in deep RNNs<br>* Bidirectional RNNs: reading sequences both ways<br>* Where RNNs are still used today: time series, audio |
+| **Academic Session 47**<br>NLP Fundamentals & Text Pre-processing | * NLP task taxonomy: classification, NER, summarisation, translation<br>* Text cleaning: lowercasing, punctuation, regex<br>* Tokenisation: word-level and subword (BPE intuition)<br>* Stop words, stemming, lemmatisation<br>* Bag of Words and TF-IDF representations |
+| **Academic Session 48**<br>Word Embeddings | * Limitations of BoW: no semantic meaning<br>* Word2Vec intuition: king - man + woman = queen<br>* Skip-gram vs CBOW training objectives<br>* Pre-trained GloVe embeddings: loading and using<br>* Embedding layer in PyTorch for downstream tasks |
+| **Academic Session 49**<br>LSTM & GRU Networks | * LSTM: cell state, forget gate, input gate, output gate<br>* How LSTM solves the vanishing gradient problem<br>* GRU: simplified gating mechanism<br>* When to use LSTM/GRU: sequence classification, language modelling<br>* Stacked LSTMs and bidirectional LSTMs |
+| **Academic Session 50**<br>Transformers: Self-Attention Mechanism | * Limitations of RNNs that Transformers overcome<br>* Self-attention: Query, Key, Value step by step<br>* Scaled dot-product attention and softmax<br>* Multi-head attention: learning multiple relationship types<br>* Positional encoding: giving tokens a sense of order |
+| **Academic Session 51**<br>Transformer Architecture & BERT | * Encoder stack: self-attention + feed-forward + layer norm<br>* BERT: masked language model pre-training intuition<br>* BERT tokeniser: [CLS], [SEP], WordPiece subwords<br>* Fine-tuning BERT for text classification with Hugging Face Trainer<br>* Hugging Face Model Hub: loading and pushing models |
+| **Academic Session 52**<br>GPT & Prompt Engineering | * GPT: autoregressive decoder, causal masking<br>* Temperature, top-k, top-p sampling<br>* Zero-shot, few-shot, chain-of-thought prompting<br>* Structured output: JSON mode and format constraints<br>* System prompts and role prompting |
+
+---
 ### **1. Exam Rubric Analysis & Tactical Time Split**
 Understanding how the exam is scored dictates how time must be managed under pressure:
 * **Objective Section (40% Weight/Time):** Includes MCQs, MSQs, and NATs. Correct answers yield +4 marks, while incorrect answers carry a **-1 penalty**. Crucially, **Multi-Select Questions (MSQs) are all-or-none with zero partial credit**.
