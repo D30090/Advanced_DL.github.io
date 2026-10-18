@@ -1,34 +1,6 @@
-# Markdown example
-
-markdown_text = """# Markdown Demo
-
-## Heading 2
-
-This is a paragraph with some **bold** text, *italic* text, and a [link](https://example.com).
-
-### Features
-- Bullet list item 1
-- Bullet list item 2
-- Bullet list item 3
-
-> This is a blockquote.     
-
-```python
-print("Hello, Markdown!")
-```
-
-1. Ordered list item 1
-2. Ordered list item 2
-
----
-
-| Name | Role |
-|------|------|
-| Alice | Developer |
-| Bob | Designer |
-
----
+ 
 layout: post
+
 title: "AIML Module 3 Exam Strategy:Countdown to Distincion"
 Date: 2024-10-17 
 Categories: [Machine Learning Exam Strategy]
